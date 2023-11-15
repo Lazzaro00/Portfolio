@@ -1,0 +1,68 @@
+.nav-bar {
+  margin-top: 15px;
+  background: #EBE3D5;
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 3;
+  min-height: 100px;
+  border-radius: 200px;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  // top - right - bottom - left
+  padding: 2px 80px 10px 40px;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.logo > h1 {
+  margin-left: 10px;
+  padding: 45px 10px 0px 0px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif; /* Aggiunto il nome del font */
+  color: #776B5D;
+}
+
+/*.nav-bar {
+  nav {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 20px 80px 10px 400px;
+  }
+}
+*/
+
+//Ridimensionamento in base alla viewport
+
+//elimino tutto lascio solo l'immagine
+@media screen and (max-width: 270px) {
+  .logo > h1 {
+    display:none;
+  }
+}
+
+//Da schermo piccolo a schermo telefono (iphone 13 pro) 
+@media screen and (max-width: 270px) and (max-width: 458px) {
+  .logo > h1 {
+    padding: 5px 10px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  }
