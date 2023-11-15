@@ -10,6 +10,8 @@ const Sidebar = () => (
         <Link className="logo" to="/">
             <img src={LogoS} alt='logo' />
             <h1>Lazzaro Carlucci - Front End Web Developer</h1>
+            <h1>Altra roba aggiunta a cads</h1>
+            <h1>seconda roba aggiunta a casd</h1>
         </Link>
         <nav>
             <NavLink exact="true" activeClassName="active" to="/">
